@@ -13,7 +13,7 @@ class MessengerScreen extends StatelessWidget {
         title: Row(
           children: const [
             CircleAvatar(
-              radius: 27.0,
+              radius: 25.0,
               backgroundImage: AssetImage('assets/images/Zoro.gif'),
             ),
             SizedBox(
@@ -55,1324 +55,1484 @@ class MessengerScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              decoration: BoxDecoration(
-                // color: const Color.fromARGB(255, 228, 224, 224),
-                // color: Colors.grey.withOpacity(10),
-                color: Colors.grey[300],
-                borderRadius: BorderRadius.circular(6),
-              ),
-              padding: const EdgeInsets.all(3.8),
-              child: Row(
-                children: const [
-                  Icon(Icons.search),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Search',
-                    style: TextStyle(
-                      fontSize: 17,
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  // color: const Color.fromARGB(255, 228, 224, 224),
+                  // color: Colors.grey.withOpacity(10),
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.circular(6),
+                ),
+                padding: const EdgeInsets.all(3.8),
+                child: Row(
+                  children: const [
+                    Icon(Icons.search),
+                    SizedBox(
+                      width: 20,
                     ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(
-              height: 16,
-            ),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: [
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    width: 15,
-                  ),
-                  SizedBox(
-                    width: 66.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: const [
-                            CircleAvatar(
-                              radius: 33.0,
-                              backgroundImage:
-                                  AssetImage('assets/images/Zoro.gif'),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.7,
-                                backgroundColor: Colors.white,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(
-                                bottom: 3.5,
-                                end: 3.4,
-                              ),
-                              child: CircleAvatar(
-                                radius: 6.9,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 6,
-                        ),
-                        const Text(
-                          'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(
-              height: 25,
-            ),
-            Expanded(
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 66.0,
-                          child: Column(
-                            children: [
-                              Stack(
-                                alignment: AlignmentDirectional.bottomEnd,
-                                children: const [
-                                  CircleAvatar(
-                                    radius: 33.0,
-                                    backgroundImage:
-                                        AssetImage('assets/images/Zoro.gif'),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.0,
-                                      end: 3.0,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 7.7,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.only(
-                                      bottom: 3.5,
-                                      end: 3.4,
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 6.9,
-                                      backgroundColor: Colors.green,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15,
-                        ),
-                        SizedBox(
-                          width: 280.0,
-                          child: Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const Text(
-                                    'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
-                                    overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    )),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                Row(
-                                  children: const [
-                                    Expanded(
-                                      child: Text(
-                                        'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
-                                        overflow: TextOverflow.ellipsis,
-                                        maxLines: 2,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                      ),
-                                      child: CircleAvatar(
-                                        radius: 5,
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    Text('02:22 PM'),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
+                    Text(
+                      'Search',
+                      style: TextStyle(
+                        fontSize: 17,
+                      ),
                     ),
                   ],
                 ),
               ),
-            ),
-          ],
+              const SizedBox(
+                height: 25,
+              ),
+              SizedBox(
+                height: 110.0,
+                child: ListView.separated(
+                  scrollDirection: Axis.horizontal,
+                  separatorBuilder: (context, index) => const SizedBox(
+                    width: 20.0,
+                  ),
+                  itemCount: 10,
+                  itemBuilder: ((context, index) => storyItemBuilder()),
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              ListView.builder(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: 15,
+                itemBuilder: ((context, index) => chatItemBuilder()),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
+
+  Widget chatItemBuilder() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 15),
+      child: Row(
+        children: [
+          SizedBox(
+            width: 66.0,
+            child: Column(
+              children: [
+                Stack(
+                  alignment: AlignmentDirectional.bottomEnd,
+                  children: const [
+                    CircleAvatar(
+                      radius: 33.0,
+                      backgroundImage: AssetImage('assets/images/Zoro.gif'),
+                    ),
+                    Padding(
+                      padding: EdgeInsetsDirectional.only(
+                        bottom: 3.0,
+                        end: 3.0,
+                      ),
+                      child: CircleAvatar(
+                        radius: 7.7,
+                        backgroundColor: Colors.white,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsetsDirectional.only(
+                        bottom: 3.5,
+                        end: 3.4,
+                      ),
+                      child: CircleAvatar(
+                        radius: 6.9,
+                        backgroundColor: Colors.green,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(
+            width: 15,
+          ),
+          SizedBox(
+            width: 280.0,
+            child: Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Mostafa Alaa Eldeen Mohamed',
+                      overflow: TextOverflow.ellipsis,
+                      maxLines: 1,
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      )),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    children: const [
+                      Expanded(
+                        child: Text(
+                          'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 2,
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 10,
+                        ),
+                        child: CircleAvatar(
+                          radius: 5,
+                          backgroundColor: Colors.green,
+                        ),
+                      ),
+                      Text('02:22 PM'),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget storyItemBuilder() {
+    return Row(
+      children: [
+        SizedBox(
+          width: 66.0,
+          child: Column(
+            children: [
+              Stack(
+                alignment: AlignmentDirectional.bottomEnd,
+                children: const [
+                  CircleAvatar(
+                    radius: 33.0,
+                    backgroundImage: AssetImage('assets/images/Zoro.gif'),
+                  ),
+                  Padding(
+                    padding: EdgeInsetsDirectional.only(
+                      bottom: 3.0,
+                      end: 3.0,
+                    ),
+                    child: CircleAvatar(
+                      radius: 7.7,
+                      backgroundColor: Colors.white,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsetsDirectional.only(
+                      bottom: 3.5,
+                      end: 3.4,
+                    ),
+                    child: CircleAvatar(
+                      radius: 6.9,
+                      backgroundColor: Colors.green,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(
+                height: 6,
+              ),
+              const Text(
+                'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+                overflow: TextOverflow.ellipsis,
+                maxLines: 2,
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
 }
+
+
+// Column(
+//                   children: [
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                     const SizedBox(
+//                       height: 20,
+//                     ),
+//                     Row(
+//                       children: [
+//                         SizedBox(
+//                           width: 66.0,
+//                           child: Column(
+//                             children: [
+//                               Stack(
+//                                 alignment: AlignmentDirectional.bottomEnd,
+//                                 children: const [
+//                                   CircleAvatar(
+//                                     radius: 33.0,
+//                                     backgroundImage:
+//                                         AssetImage('assets/images/Zoro.gif'),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.0,
+//                                       end: 3.0,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 7.7,
+//                                       backgroundColor: Colors.white,
+//                                     ),
+//                                   ),
+//                                   Padding(
+//                                     padding: EdgeInsetsDirectional.only(
+//                                       bottom: 3.5,
+//                                       end: 3.4,
+//                                     ),
+//                                     child: CircleAvatar(
+//                                       radius: 6.9,
+//                                       backgroundColor: Colors.green,
+//                                     ),
+//                                   ),
+//                                 ],
+//                               ),
+//                             ],
+//                           ),
+//                         ),
+//                         const SizedBox(
+//                           width: 15,
+//                         ),
+//                         SizedBox(
+//                           width: 280.0,
+//                           child: Expanded(
+//                             child: Column(
+//                               crossAxisAlignment: CrossAxisAlignment.start,
+//                               children: [
+//                                 const Text(
+//                                     'Mostafa Alaa Eldeen Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                                     overflow: TextOverflow.ellipsis,
+//                                     maxLines: 1,
+//                                     style: TextStyle(
+//                                       fontSize: 20,
+//                                       fontWeight: FontWeight.bold,
+//                                     )),
+//                                 const SizedBox(
+//                                   height: 10,
+//                                 ),
+//                                 Row(
+//                                   children: const [
+//                                     Expanded(
+//                                       child: Text(
+//                                         'Hello my friend, i ask Allah to have a good health and Allah Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health Hello my friend, i ask Allah to have a good health',
+//                                         overflow: TextOverflow.ellipsis,
+//                                         maxLines: 2,
+//                                       ),
+//                                     ),
+//                                     Padding(
+//                                       padding: EdgeInsets.symmetric(
+//                                         horizontal: 10,
+//                                       ),
+//                                       child: CircleAvatar(
+//                                         radius: 5,
+//                                         backgroundColor: Colors.green,
+//                                       ),
+//                                     ),
+//                                     Text('02:22 PM'),
+//                                   ],
+//                                 ),
+//                               ],
+//                             ),
+//                           ),
+//                         ),
+//                       ],
+//                     ),
+//                   ],
+//                 ),
+
+
+// SingleChildScrollView(
+//               scrollDirection: Axis.horizontal,
+//               child: Row(
+//                 children: [
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 15,
+//                   ),
+//                   SizedBox(
+//                     width: 66.0,
+//                     child: Column(
+//                       children: [
+//                         Stack(
+//                           alignment: AlignmentDirectional.bottomEnd,
+//                           children: const [
+//                             CircleAvatar(
+//                               radius: 33.0,
+//                               backgroundImage:
+//                                   AssetImage('assets/images/Zoro.gif'),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.0,
+//                                 end: 3.0,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 7.7,
+//                                 backgroundColor: Colors.white,
+//                               ),
+//                             ),
+//                             Padding(
+//                               padding: EdgeInsetsDirectional.only(
+//                                 bottom: 3.5,
+//                                 end: 3.4,
+//                               ),
+//                               child: CircleAvatar(
+//                                 radius: 6.9,
+//                                 backgroundColor: Colors.green,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         const SizedBox(
+//                           height: 6,
+//                         ),
+//                         const Text(
+//                           'Mostafa Alaa Eldeen Mostafa Alaa Eldeen',
+//                           overflow: TextOverflow.ellipsis,
+//                           maxLines: 2,
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                 ],
+//               ),
+//             ),
